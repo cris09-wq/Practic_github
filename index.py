@@ -4,5 +4,6 @@ def main():
 print("Gestionamiento de operaciones en sucursales")
 
 while True:
-    print("/n seleccione la accion que quieras hacer")
+    print(" seleccione la accion que quieras agregar")
     print("1. Nombre del sucursal")
+    print("2. Direccion completa")
