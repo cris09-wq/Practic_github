@@ -35,5 +35,11 @@ while True:
 
             opcion3=input("Escribe tu opcion (1-2): ").strip()
 
+            if opcion3==1:
+                item=input("Escribe el numero de telefono").strip()
+                if item:
+                    elementos.append(item)
+                else:
+                    print("Error, no puede quedar este campo vacio")
             
 
