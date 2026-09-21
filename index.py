@@ -10,3 +10,4 @@ while True:
     print("3. medio de contacto")
     print("4. Id de gerente o responsable")
     print("5. Editar datos")
+    print("6. eliminar datos")
