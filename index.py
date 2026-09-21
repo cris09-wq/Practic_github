@@ -51,5 +51,7 @@ while True:
             elif opcion3==3:
                 print("Saliendo es Saliendo")
                 break
-                
+    elif opcion==4:
+        while True:
+            print("1. Id de gerente")           
 
