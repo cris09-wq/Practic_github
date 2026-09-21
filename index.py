@@ -31,5 +31,6 @@ while True:
     elif opcion==3:
         while True:
             print("1. Telefono")
+            print("2. Correo electronico")
 
 
