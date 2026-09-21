@@ -53,5 +53,6 @@ while True:
                 break
     elif opcion==4:
         while True:
-            print("1. Id de gerente")           
+            print("1. Id de gerente")       
+            print("2. Id de responsable")    
 
