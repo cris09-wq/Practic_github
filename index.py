@@ -32,6 +32,7 @@ while True:
         while True:
             print("1. Telefono")
             print("2. Correo electronico")
+            print("3. salir")
 
             opcion3=input("Escribe tu opcion (1-2): ").strip()
 
@@ -41,5 +42,11 @@ while True:
                     elementos.append(item)
                 else:
                     print("Error, no puede quedar este campo vacio")
+            elif opcion3==2:
+                item=input("Escribe la direccion de correo electronico")
+                if item:
+                    elementos.append(item)
+                else:
+                    print("Error, no se puede dejar este csampo vacio")
             
 
