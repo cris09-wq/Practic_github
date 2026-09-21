@@ -13,3 +13,5 @@ while True:
     print("6. eliminar datos")
     print("7. Ver datos")
     print("8. salir")
+
+    opcion=input("Elige tu opcion (1-8): ").strip
