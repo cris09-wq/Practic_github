@@ -48,5 +48,8 @@ while True:
                     elementos.append(item)
                 else:
                     print("Error, no se puede dejar este csampo vacio")
-            
+            elif opcion3==3:
+                print("Saliendo es Saliendo")
+                break
+                
 
