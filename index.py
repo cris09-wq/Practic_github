@@ -21,7 +21,13 @@ while True:
             elementos.append(item)
             print("El nombre se agrego correctamente")
         else:
-            print("Error, no puedes dejarlo vacio")
+            print("Error, no puedes dejar esta casilla vacia")
+    elif opcion==2:
+        item=input("Escribe la direccion completa del sucursal: ").strip()
+        if item:
+            elementos.append(item)
+        else:
+            print("Error, no puedes dejar esta casilla vacia")
     
 
 
