@@ -7,3 +7,4 @@ while True:
     print(" seleccione la accion que quieras agregar")
     print("1. Nombre del sucursal")
     print("2. Direccion completa")
+    print("3. medio de contacto")
