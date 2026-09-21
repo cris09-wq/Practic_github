@@ -1,5 +1,4 @@
-def main():
-    elementos=[]
+elementos=[]
 
 print("Gestionamiento de operaciones en sucursales")
 
@@ -14,4 +13,15 @@ while True:
     print("7. Ver datos")
     print("8. salir")
 
-    opcion=input("Elige tu opcion (1-8): ").strip
+    opcion=input("Elige tu opcion (1-8): ").strip()
+
+    if opcion==1:
+        item=input("Escribe el nombre del sucursal que quieres agregar: ").strip()
+        if item:
+            elementos.append(item)
+            print("El nombre se agrego correctamente")
+        else:
+            print("Error, no puedes dejarlo vacio")
+    
+
+
