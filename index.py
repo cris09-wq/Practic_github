@@ -12,3 +12,4 @@ while True:
     print("5. Editar datos")
     print("6. eliminar datos")
     print("7. Ver datos")
+    print("8. salir")
