@@ -28,6 +28,8 @@ while True:
             elementos.append(item)
         else:
             print("Error, no puedes dejar esta casilla vacia")
-    
+    elif opcion==3:
+        while True:
+            print("1. Telefono")
 
 
