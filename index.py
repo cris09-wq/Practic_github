@@ -33,4 +33,7 @@ while True:
             print("1. Telefono")
             print("2. Correo electronico")
 
+            opcion3=input("Escribe tu opcion (1-2): ").strip()
+
+            
 
